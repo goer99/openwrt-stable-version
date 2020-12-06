@@ -9,9 +9,9 @@
 name: OpenWrt自用版
 
 on:
-  repository_dispatch:
-  release:
-    types: published
+  #repository_dispatch:
+  #release:
+  #  types: published
   #push:
   #  branches:
   #    - master
@@ -19,6 +19,7 @@ on:
   #    - 'zy.config'
   schedule:
     - cron: 30 21 1 * *
+  workflow_dispatch:
   #watch:
   #  types: started
 
