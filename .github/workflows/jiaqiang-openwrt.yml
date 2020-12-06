@@ -24,7 +24,7 @@ on:
   #  types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/openwrt
+  REPO_URL: https://github.com/goer99/openwrt-lean-stable
   REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: jq.config
