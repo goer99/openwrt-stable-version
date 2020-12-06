@@ -9,9 +9,9 @@
 name: OpenWrt精简版
 
 on:
-  repository_dispatch:
-  release:
-    types: published
+  #repository_dispatch:
+  #release:
+  #  types: published
   #push:
   #  branches:
   #    - master
@@ -19,6 +19,7 @@ on:
   #    - 'jq.config'
   schedule:
     - cron: 0 20 1 * *
+  workflow_dispatch:
   #watch:
   #  types: started
 
