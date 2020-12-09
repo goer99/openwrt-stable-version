@@ -17,7 +17,7 @@ sed -i '$a src-git diy https://github.com/firker/diy-ziyong' feeds.conf.default
 sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 
 # Add liuran's latest pacakges
-sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
 
 # git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
