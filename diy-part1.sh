@@ -15,6 +15,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git diy https://github.com/firker/diy-ziyong' feeds.conf.default
 sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
+sed -i '$a src-git passwall https://github.com/goer99/xiaorouji-openwrt-passwall' feeds.conf.default
 
 # Add liuran's latest pacakges
 #sed -i '$a src-git liuran001_packages_update_everyday https://github.com/liuran001/openwrt-packages' feeds.conf.default
