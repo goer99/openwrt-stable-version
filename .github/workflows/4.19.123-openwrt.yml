@@ -119,7 +119,7 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
       with:
-        name: OpenWrt_stable_trojan_go_${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: OpenWrt_stable_trojan_go${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: openwrt/bin
 
     - name: Organize files
